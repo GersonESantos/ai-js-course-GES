@@ -1,1 +1,0 @@
-Quero usar neste programa o Gemini 2.5 Flash, altere.
