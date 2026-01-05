@@ -13,7 +13,7 @@ async function main(): Promise<void> {
     const ai = new GoogleGenAI({ apiKey: getApiKey("GEMINI_API_KEY") });
 
     // 2. Define o modelo (equivalente ao modelName do GitHub Models)
-    const modelName = process.env.GEMINI_CHAT_MODEL || "gemini-2.0-flash";
+    const modelName = process.env.GEMINI_CHAT_MODEL || "gemini-2.5-flash";
 
     // 3. Combina as mensagens system e user em um único prompt
     const systemMessage = "You are a helpful assistant.";
